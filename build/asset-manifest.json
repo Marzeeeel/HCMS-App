@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e2897af.css",
+    "main.js": "/static/js/main.5e67fa26.js",
+    "static/media/pakcoy.jpg": "/static/media/pakcoy.e7f7ffc05360c0eec068.jpg",
+    "static/media/selada.jpg": "/static/media/selada.1b5173c7c19153d323a7.jpg",
+    "static/media/tomat.jpg": "/static/media/tomat.3e609a8d85b6a31f9d8a.jpg",
+    "static/media/hcms-img.png": "/static/media/hcms-img.dd016f5b2d29bc110d0a.png",
+    "static/media/sawi.jpg": "/static/media/sawi.40c27361d336da5c23fe.jpg",
+    "index.html": "/index.html",
+    "main.4e2897af.css.map": "/static/css/main.4e2897af.css.map",
+    "main.5e67fa26.js.map": "/static/js/main.5e67fa26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e2897af.css",
+    "static/js/main.5e67fa26.js"
+  ]
+}
