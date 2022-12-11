@@ -1,0 +1,1040 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    min-height: 85vh; 
+    margin: 0; 
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+
+.header-logo-wrapper h1 {
+    font-family: 'Tourney';
+    color: #000000;
+    letter-spacing: 2px;
+    margin-left: 3px;
+  }
+
+.header-logo-wrapper a {
+    text-decoration: none;
+  }
+
+.header-logo-navbar h1 {
+  font-family: 'Tourney';
+    color: #d6edd4;
+    letter-spacing: 2px;
+    margin-left: 3px;
+    margin-top: -10px;
+}
+
+.header-logo-navbar a {
+  text-decoration: none;
+}
+
+main {
+    margin: 0 auto;
+    padding: 25px 0;
+    width: 90%;
+    max-width: 1200px;
+  }
+
+footer {
+    font-weight: 500;
+    text-align: center;
+    color: #A3ABBB;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.header-wrapper{
+    margin: 10px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    font-family: monospace;
+}
+
+.header-navigation-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    list-style-type: none;
+
+}
+
+.action-submit-back button {
+  width: 10%;
+  height: 45px;
+  cursor: pointer;
+  margin-top: 7px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: #5f6463;
+  border : 1px solid #d4e4e2;
+  margin-left: 12px;
+}
+
+.action-submit-back button:hover {
+  background-color: #1d201f;
+  transition: all ease-in 0.1s;
+  color: white;
+}
+
+/* 
+=====================================
+             INFO PAGE
+=====================================
+*/
+
+.main-page{
+  padding: 8px;
+}
+
+.main-page__image{
+  margin: 10px 10px 50px 10px;
+}
+
+.main-page__image img{
+  display: block;
+  height: 340px;
+  width: 400px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: 660px;
+}
+
+.main-page__text {
+  color: var(--text);
+  margin-bottom: 20px;
+  margin-top: -230px;
+}
+
+.main-page__text h2 {
+  margin: -350px 0 10px 0;
+}
+
+.main-page__text p {
+  margin: 10px 0;
+}
+
+.main-page__link a{
+  text-decoration: none;
+}
+
+.main-page__link button{
+  padding: -40px 22px 15px 22px;
+  margin: 10px 0;
+  background-color: #489389;
+  border : 1px solid #d4e4e2;
+  border-radius: 50px;
+  color: rgb(255, 252, 252); 
+  padding: 10px 24px; 
+  cursor: pointer; 
+  width: 20%;
+  display: block; 
+  text-align: left;
+  transition: 0.3s;
+}
+
+.main-page__link button:hover {
+  background-color: #32845a;
+  color: white;
+}
+
+.main-page__link .one {
+   margin-left: 126px; 
+}
+
+.main-page__link .two {
+  margin-left: 98px; 
+}
+
+/* 
+=====================================
+            ABOUT PAGE
+=====================================
+*/
+
+.about-page {
+  padding: 8px;
+  text-align: justify;
+  word-spacing: 3px;
+}
+
+.about-page div h2 {
+  color: var(--text-dark-green);
+  margin-bottom: 10px;
+}
+
+.about-page__what p{
+  margin: 5px 0 30px 0;
+}
+
+.about-page__why p{
+  margin: 5px 0 30px 0;
+}
+
+.about-page__who ol{
+  margin: 5px 0 30px 0;
+}
+
+.about-page__who ol li {
+  margin-left: 25px;
+}
+
+/* 
+=====================================
+            LOGIN PAGE
+=====================================
+*/
+
+.login-page {
+  padding: 8px;
+}
+
+.login-page__header{
+  margin : 10px 10px 40px 10px;
+}
+
+.login-page__header p{
+  color: var(--text-dark);
+  margin-top: 15px;
+}
+
+.input-login {
+  margin-top: -5px;
+  margin-left: 10px;
+}
+
+.input-login input[type=email], input[type=password] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.login__action {
+  margin-top: 15px;
+}
+
+.login__action button {
+  width: 25%;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 12px 20px;
+  border-radius: 50px;
+  color: white;
+  background-color: #59A89D;
+  border : 1px solid #d4e4e2;
+}
+
+.login__action button:hover {
+  background-color: #32845a;
+  transition: all ease-in 0.2s;
+  color: white;
+}
+
+.login-page a {
+  text-decoration: none;
+  color: var(--text-green);
+  font-weight: 600;
+}
+
+.login__link {
+  margin: 15px 15px;
+  font-size: 14px;
+}
+
+.login__link a {
+  margin-left: 3px;
+}
+
+.login__link a:hover{
+  color :#59A89D;
+  text-decoration: underline;
+}
+
+/* 
+=====================================
+            REGISTER PAGE
+=====================================
+*/
+
+.register-page {
+  padding: 8px
+}
+
+.register-page__header{
+  margin-bottom: 25px;
+}
+
+.register-page__header p{
+  margin-top: 10px;
+  color: var(--text-dark);
+}
+
+.input-register input[type=text], input[type=email], input[type=password] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.register__action {
+  margin-top: 15px;
+}
+
+.register__action button {
+  width: 25%;
+  margin-top: 10px;
+  padding: 12px 20px;
+  border-radius: 50px;
+  color: white;
+  background-color: #59A89D;
+  border : 1px solid #d4e4e2;
+}
+
+.register__action button:hover {
+  background-color: #32845a;
+  transition: all ease-in 0.2s;
+  color: white;
+}
+
+.register-page a {
+  text-decoration: none;
+  color: var(--text-green);
+  font-weight: 600;
+}
+
+.register__link {
+  margin: 15px 10px;
+  font-size: 14px;
+}
+
+.register__link a {
+  margin-left: 3px;
+}
+
+.register__link a:hover {
+  color :#59A89D;
+  text-decoration: underline;
+}
+
+/* 
+=====================================
+            MAIN PAGE
+=====================================
+*/
+
+.home {
+  margin-left: 200px;
+}
+
+.hcms__dashboard-item__title h2 {
+  margin-top: -30px;
+  font-size: 30px;
+}
+
+.hcms__list-hidroponik-list {
+  height: 1000px;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #82BEB5;
+  overflow-x: hidden;
+  padding-top: 30px;
+  margin-top: -30px;
+}
+
+.hcms__list-hidroponik a {
+  text-decoration: none;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  margin: 20px 0 20px 0;
+  max-height: 35px;
+}
+
+.hcms__list-hidroponik-list h3:hover {
+  transition: all ease-in 0.2s;
+  color: #FAFAEE;
+  font-size: 19px;
+}
+
+.hcms__list-hidroponik-item__description {
+  color: #000000;
+  margin-left: 20px;
+}
+
+.hcms__dashboard-item__logout {
+  margin-top: 110px;
+  margin-left: 20px;
+}
+
+.hcms__dashboard-item__logout h3{
+  color: #000000;
+}
+
+.hcms__dashboard-item__logout h3:hover{
+  color:red;
+}
+
+/* 
+=====================================
+            MONITOR PAGE
+=====================================
+*/
+.hcms__monitor-item__title h2 {
+  font-size: 24px;
+  margin-bottom: 25px;
+  margin-top: -30px;
+  margin-left: 10px;
+}
+
+.monitor {
+  margin-top: -20px;
+  margin-left: 200px;
+}
+
+.hcms__list-monitor a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.hcms__list-monitor h3 {
+  padding-left: 100px;
+  padding-top: 50px;
+  margin-top: -45px;
+}
+
+.hcms__list-monitor-item-suhu {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 320px;
+  height: 130px;
+  border-radius: 10px;
+  background-color: #ff7d7d;
+  margin-right: 10px;
+}
+
+.hcms__list-monitor-item-suhu:hover {
+  box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+  background-color: #fd5c5c;
+}
+
+.hcms__list-monitor-item-kelembapan {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 320px;
+  height: 130px;
+  border-radius: 10px;
+  margin-left: -30px;
+  background-color: #aeeffd;
+}
+
+.hcms__list-monitor-item-kelembapan:hover {
+  box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+  background-color: #7be4fc;
+}
+
+.hcms__list-monitor-item-ketinggianAir {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 320px;
+  height: 130px;
+  border-radius: 10px;
+  background-color: #84C87A;
+}
+
+.hcms__list-monitor-item-ketinggianAir:hover {
+  box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+  background-color: #70d760;
+}
+
+.hcms__list-monitor-item-tanaman {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 320px;
+  height: 130px;
+  border-radius: 10px;
+  margin-left: -30px;
+  background-color: #EA97E1;
+}
+
+.hcms__list-monitor-item-tanaman:hover {
+  box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+  background-color: #ec67dc;
+}
+
+.hcms__list-monitor-item-tanaman h3 {
+  padding-left: 73px;
+}
+
+.container {
+ padding-right: 16px;
+}
+
+.hcms__list-monitor .row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hcms__list-monitor .column {
+  float: left;
+  width: 45%;
+  padding: 50px;
+}
+
+.action-back-hidroponik button{
+  margin-left: 220px;
+  margin-top: 50px;
+  width: 10%;
+  height: 45px;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: #5f6463;
+  border : 1px solid #d4e4e2;
+}
+
+.action-back-hidroponik button:hover {
+  background-color: #1d201f;
+  transition: all ease-in 0.1s;
+  color: white;
+}
+
+/* 
+=====================================
+        TANAMAN HIDROPONIK PAGE
+=====================================
+*/
+.tanaman-hidroponik-page__header h2 {
+  margin-top: -30px;
+}
+
+.hcms__list-tanaman-hidroponik {
+  width: auto;
+  margin-top: 40px;
+}
+
+.tanaman-hidroponik-page {
+  margin-left: 250px;
+}
+
+.hcms__list-tanaman-hidroponik-item {
+  float: left;
+  width: 70%;
+  border: thin silver solid;
+  margin: 15px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 25px;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+}
+
+img {
+  width: 100%;
+  width: 450px;
+  height: 250px;
+  margin-top: 20px;
+}
+
+.hcms__list-tanaman-hidroponik-item__text{
+  margin-top: 15px;
+  margin-bottom: -20px;
+}
+
+.hcms__list-tanaman-hidroponik-item__text a:hover{
+  font-weight: bolder;
+}
+
+.action-back button{
+  width: 10%;
+  height: 45px;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: #5f6463;
+  border : 1px solid #d4e4e2;
+  margin-left: 180px;
+}
+
+.action-back button:hover {
+  background-color: #1d201f;
+  transition: all ease-in 0.1s;
+  color: white;
+}
+
+/* 
+=====================================
+            SELADA PAGE
+=====================================
+*/
+.selada-page {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: -70px;
+  margin-left: 200px;
+}
+.selada-page__header h2 {
+  text-align: center;
+}
+
+.selada__image img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.hcms__list-selada-item__text {
+  margin-top: 20px;
+  text-align: justify;
+}
+.hcms__list-selada-item__text .keterangan {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* 
+=====================================
+            SAWI PAGE
+=====================================
+*/
+.sawi-page {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: -70px;
+  margin-left: 200px;
+}
+.sawi-page__header h2 {
+  text-align: center;
+}
+
+.sawi__image img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.hcms__list-sawi-item__text {
+  margin-top: 20px;
+  text-align: justify;
+}
+.hcms__list-sawi-item__text .keterangan {
+  margin-top: 10px;
+  font-weight: bold;
+}
+/* 
+=====================================
+            PAKCOY PAGE
+=====================================
+*/
+.pakcoy-page {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: -70px;
+  margin-left: 200px;
+}
+.pakcoy-page__header h2 {
+  text-align: center;
+}
+
+.pakcoy__image img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.hcms__list-pakcoy-item__text {
+  margin-top: 20px;
+  text-align: justify;
+}
+.hcms__list-pakcoy-item__text .keterangan {
+  margin-top: 10px;
+  font-weight: bold;
+}
+/* 
+=====================================
+            TOMAT PAGE
+=====================================
+*/
+.tomat-page {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: -70px;
+  margin-left: 200px;
+}
+
+.tomat-page__header h2 {
+  text-align: center;
+}
+
+.tomat__image img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.hcms__list-tomat-item__text {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.hcms__list-tomat-item__text .keterangan {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* 
+=====================================
+            KANGKUNG PAGE
+=====================================
+*/
+
+.kangkung-page {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: -70px;
+  margin-left: 200px;
+}
+
+.kangkung-page__header h2 {
+  text-align: center;
+}
+
+.kangkung__image img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.hcms__list-kangkung-item__text {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.hcms__list-kangkung-item__text .keterangan {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+/* 
+=====================================
+            CEK TANAMAN PAGE
+=====================================
+*/
+
+.Cek-Tanaman-page {
+  margin-left: 200px;
+  margin-top: -30px;
+  margin-bottom: 10px;
+}
+
+.Cek-Tanaman-page__header{
+  margin-bottom: 25px;
+}
+
+.Cek-Tanaman-page__header p{
+  color: var(--text-dark);
+  margin-top: 10px;
+}
+
+.input-cek-tanaman h2 {
+  margin-bottom: 25px;
+}
+
+.cek-tanaman__action {
+  margin-top: 10px;
+}
+
+.Cek-Tanaman-page a {
+  text-decoration: none;
+  color: var(--text-green);
+  font-weight: 600;
+}
+
+.input-cek-tanaman {
+  margin-top: 40px;
+}
+
+.cek-tanaman-input input[type=text] {
+  width: 25%;
+  padding: 12px 20px;
+  margin-top: -30px;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-left: 200px;
+}
+
+.cek-tanaman-input input[type=radio] {
+  margin-left: 120px;
+  width: 1%;
+  height: 15px;
+  width: 15px;
+}
+
+.cek-tanaman-input span {
+  margin-left: 10px;
+}
+
+.cek-tanaman-input h4 {
+  margin-top: 20px;
+}
+
+.cek-tanaman-input button {
+  width: 10%;
+  margin-top: 30px;
+  padding: 12px 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border : 1px solid #000000;
+}
+
+.cek-tanaman-input button:hover {
+  background-color: #32845a;
+  transition: all ease-in 0.2s;
+  color: white;
+}
+
+.cek-tanaman__link {
+  margin: 15px 2px;
+  font-size: 14px;
+}
+
+.menu {
+  position: absolute;
+
+  list-style-type: none;
+  margin: 5px 0;
+  padding: 0;
+
+  border: 1px solid grey;
+  width: 150px;
+}
+
+.menu > li {
+  margin: 0;
+
+  background-color: white;
+}
+
+.menu > li:hover {
+  background-color: lightgray;
+}
+
+.menu > li > button {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 5px;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+/* 
+=====================================
+            DATA TANAMAN PAGE
+=====================================
+*/
+.Data-Tanaman-page {
+  margin-left: 200px;
+  margin-top: -30px;
+}
+
+table, td, th {
+  border: 2px solid;
+  padding: 3px;
+}
+
+table {
+  margin-top: 15px;
+  text-align: center;
+  width: 80%;
+  border-collapse: collapse;
+  max-height: 600px;
+}
+
+.hcms_list-dataTanaman td button {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 7px 14px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.hcms_list-dataTanaman td button:hover {
+  background: #da190b;
+}
+
+/* 
+=====================================
+            KONTAK KAMI
+=====================================
+*/
+
+.kontak {
+  margin-left: 200px;
+  margin-top: -30px;
+}
+
+.hcms__list-kontak {
+  margin-top: 30px;
+}
+
+.hcms__list-kontak-item__text a{
+  text-decoration: none;
+  color: #000000;
+  margin-top: -28px;
+  margin-left: 5px;
+  margin-bottom: -5px;
+}
+
+.hcms__list-kontak-item__text a:hover {
+  color:navy;
+  text-decoration: underline;
+}
+
+.hcms__kontak-item__title p {
+  margin-top: 10px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* 
+=====================================
+            SUHU RUANG PAGE
+=====================================
+*/
+.suhu-ruang-page {
+  margin-left: 480px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  margin-top: 20px;
+  height: 220px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.suhu-ruang-page:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.suhu-ruang-page__header h2 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.HCMS__suhu-ruang-item__text p {
+  margin-left: 65px;
+  margin-top: 40px;
+  font-size: 50px;
+}
+
+/* 
+=====================================
+            KELEMBAPAN PAGE
+=====================================
+*/
+.Kelembapan-page {
+  margin-left: 480px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  margin-top: 20px;
+  height: 220px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.Kelembapan-page:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.Kelembapan-page__header h2 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.hcms__list-kelembapan-item__text p {
+  margin-left: 60px;
+  margin-top: 40px;
+  font-size: 50px;
+}
+
+
+/* 
+=====================================
+            KETINGGIAN AIR PAGE
+=====================================
+*/
+.Ketinggian-Air-page {
+  margin-left: 480px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  margin-top: 20px;
+  height: 220px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.Ketinggian-Air-page:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.Ketinggian-Air-page__header h2 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.hcms__list-ketinggian-air-item__text {
+  margin-left: 65px;
+  margin-top: 40px;
+  font-size: 50px;
+}
